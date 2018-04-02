@@ -31,7 +31,7 @@ class Search extends React.Component{
           })
           titles = titleArr.map((title) => {
             let id = urlArr[titleArr.indexOf(title)]
-            return (<Link className="result_title" to={process.env.PUBLIC_URL + "/result"} id={id} key={id} onClick={(e) => {this.props.setURL(e)}}
+            return (<Link className="result_title" to="/result" id={id} key={id} onClick={(e) => {this.props.setURL(e)}}
             >{title}</Link>)
           });
         }
