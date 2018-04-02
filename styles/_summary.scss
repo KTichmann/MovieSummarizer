@@ -1,0 +1,28 @@
+#summary{
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+  br{
+    color: white;
+  }
+  .summary_title{
+    color: white;
+    font-size: 35px;
+    font-family: "Londrina Solid";
+  }
+}
+
+.summary_h1{
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Londrina Solid";
+  top: 6%;
+  // left: 50%;
+  width: 100%;
+  // transform: translateX(-50%);
+}

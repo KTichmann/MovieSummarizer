@@ -1,0 +1,51 @@
+{
+  "name": "Summarizer",
+  "version": "1.0.0",
+  "description": "Summarizer Project",
+  "main": "scripts/app.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "6",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "git": "^0.1.5",
+    "jquery": "^3.3.1",
+    "live-server": "^1.2.0",
+    "moment": "2.18.1",
+    "natural": "^0.5.6",
+    "node": "^9.5.0",
+    "node-sass": "^4.7.2",
+    "normalize": "^0.3.1",
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dates": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "request": "^2.83.0",
+    "sass": "^1.0.0-beta.4",
+    "sass-loader": "^6.0.6",
+    "sentence-tokenizer": "^1.0.0",
+    "style-loader": "^0.20.3",
+    "victory": "^0.24.5",
+    "webpack": "^4.0.1",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.9"
+  },
+  "repository": "https://github.com/KTichmann/summarizer-project.git",
+  "author": "KTichmann <ktichmann@gmail.com>"
+}

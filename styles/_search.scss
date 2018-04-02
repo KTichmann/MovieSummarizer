@@ -1,0 +1,26 @@
+.result_main{
+  font-family: 'Six Caps';
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 1%;
+  letter-spacing: 3px;
+  .result_header{
+    word-spacing: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Londrina Solid";
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  .result_title{
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: #580C1F;
+      cursor: pointer;
+    }
+  }
+}

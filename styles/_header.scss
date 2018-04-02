@@ -1,0 +1,31 @@
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: #580C1F;
+  font-size: 30px;
+  padding: 5px 10px;
+  font-family: 'Londrina Solid';
+  a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    word-spacing: 18px;
+    letter-spacing: 3px;
+  }
+  .active{
+    background-color: lighten(#580C1F, 30);
+  }
+}
+
+#loading_header{
+  position: absolute;
+  word-spacing: 5px;
+  font-family: "Londrina Solid";
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
