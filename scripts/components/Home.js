@@ -37,7 +37,7 @@ class Home extends React.Component{
           <div className="home_title">MOVIE SUMMARIZER</div>
           <div className="home_input">
             <input type="text" id="searchInput" />
-            <Link className="home_link" to={process.env.PUBLIC_URL + "/search"} onClick={(e) => this.props.search(e)}>Search</Link>
+            <Link className="home_link" to="/search" onClick={(e) => this.props.search(e)}>Search</Link>
           </div>
         </div>
       )

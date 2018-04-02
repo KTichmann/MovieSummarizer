@@ -50,10 +50,10 @@ class App extends React.Component{
       <div>
         <Header search={this.handleSearchInput}/>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/search"} render={() => <Search input={this.state.input} setURL={this.setURL}/>} />
-          <Route path= {process.env.PUBLIC_URL + "/about"} render={() => <About />} />
-          <Route path={process.env.PUBLIC_URL + "/result"} render={() => <Result url={this.state.url} title={this.state.title}/>} />
-          <Route path={process.env.PUBLIC_URL + "/"} exact={true} render={() => <Home search={this.handleSearchInput} />} />
+          <Route path="/search" render={() => <Search input={this.state.input} setURL={this.setURL}/>} />
+          <Route path="/about" render={() => <About />} />
+          <Route path="/result" render={() => <Result url={this.state.url} title={this.state.title}/>} />
+          <Route path="/" exact={true} render={() => <Home search={this.handleSearchInput} />} />
         </Switch>
       </div>
     )
