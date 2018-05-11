@@ -25,7 +25,6 @@ app.post("*", (req,res) => {
       const result = {summary: "Error Fetching Summary!"}
       res.json(JSON.stringify(result))
     }
-    console.log(error);
     $ = cheerio.load(body, {ignoreWhitespace: true});
     $("b").remove();
     $("u").remove();
