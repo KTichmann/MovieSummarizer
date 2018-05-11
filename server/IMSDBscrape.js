@@ -7,7 +7,7 @@ const url = "http://www.imsdb.com/scripts/Forrest-Gump.html"
 
 const getSummary = (url) => {
   request(url, (error, response, body) => {
-    //Check for and handle errors
+    //TODO: Add check and handling for errors
     console.log(error);
     $ = cheerio.load(body, {ignoreWhitespace: true});
     $("b").remove();
