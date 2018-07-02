@@ -3,7 +3,6 @@ const request = require("request");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const summarize = require("./summarizer.js")
-const url = "http://www.imsdb.com/scripts/Forrest-Gump.html"
 
 const getSummary = (url) => {
   request(url, (error, response, body) => {
