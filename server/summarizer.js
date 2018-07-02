@@ -9,18 +9,6 @@ const testFrequency = new TfIdf();
 //fs
 const fs = require('fs')
 
-//Load documents from folder
-// let fileNames = fs.readdirSync("Corpus").map((file) => "Corpus/" + file)
-// let n = fileNames.length
-// //Add documents to the Corpus
-// fileNames.forEach((file) => testFrequency.addFileSync(file))
-// const data = JSON.stringify(testFrequency);
-// fs.writeFile("test.txt", data, (err) => {
-//   if (!err){
-//     console.log("write complete")
-//   }
-// })
-
 //Takes string to be summarized ==> returns 3-sentence summary
 const setupSummarize = () => {
   testFrequency.addFileSync("test.txt");
