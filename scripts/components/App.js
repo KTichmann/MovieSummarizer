@@ -10,15 +10,17 @@ class App extends React.Component{
 
   constructor(props){
     super(props);
+    //binding this to main component rather than the functions themselves
     this.handleSearchInput = this.handleSearchInput.bind(this);
     this.setURL = this.setURL.bind(this);
+    //initialize state
     this.state = {
       input: "",
       url: "",
       title: ""
     };
   }
-
+  //Handles search input from Home component -> updating this.state.input 
   handleSearchInput(e){
     let userInput = document.getElementById("searchInput").value;
     if (userInput){
@@ -31,7 +33,7 @@ class App extends React.Component{
       e.preventDefault();
     }
   }
-
+  //handles choice from search component -> sets url and title in state
   setURL(e){
     let url = e.target.id
     let title = e.target.innerText
