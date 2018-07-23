@@ -1,5 +1,5 @@
 # MovieSummarizer
-[Move Summarizer Demo](https://ktichmann.github.io/MovieSummarizer/#/)
+<a href="https://ktichmann.github.io/MovieSummarizer/#/" target="_blank">Movie Summarizer Demo</a>
 
 ## How it Works
 
